@@ -35,7 +35,7 @@ const ContactPage = () => {
           <h3 className="text-xl font-bold mb-2 ">Social Profiles</h3>
           <div className="flex space-x-4">
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <LinkedInIcon style={{ fontSize: 30 }} className='hover:text-green-500'/>
+              <LinkedInIcon style={{ fontSize: 30 }} className='hover:text-blue-900'/>
             </a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
               <GitHubIcon style={{ fontSize: 30 }} className='hover:text-purple-800' />
