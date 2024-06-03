@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 const About = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
-<[
+       <Navbar/>
       <h1 className="text-5xl font-bold mb-8">About Me</h1>
       <div className="flex flex-col md:flex-row items-center md:items-start">
         <div className="mb-6 md:mb-0 md:mr-6">
