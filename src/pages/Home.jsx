@@ -7,13 +7,15 @@ import Typewriter from '../components/typr';
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white pt-48">
+    <div className="min-h-screen  bg-gray-900 text-white pt-52 pl-32 ">
       <div className='md:hidden place-self-center'><Navbar /></div>
-      <div className="flex flex-col items-center justify-center h-full ">
-        <h1 className="text-6xl font-bold mb-4">Om Mishra</h1><span className="text-xl text-green-500"><Typewriter text={["I am an AI Enthusiast!" , "Me to papa hu "]} typingSpeed={150} />
+      <div className="grid  h-full ">
+        <div>
+        <h1 className="text-5xl font-sans font-bold  mb-4">Om Mishra</h1><span className="text-xl font-bold text-green-500"><Typewriter text={["I am an AI Enthusiast!" , "Me to papa hu "]} typingSpeed={150} />
           </span>
-        <div className='hidden md:block' >
-        <Navbar />
+        </div>
+        <div className='hidden md:block ' >
+        <Navbar/>
         </div>
       
         <div className="flex space-x-4 mb-6">

@@ -4,8 +4,27 @@
 @tailwind utilities;
 
 
+@layer utilities {
+  .hover\:animate-color-change:hover {
+    animation: color-change-hover 12s infinite;
+  }
+}
+@layer utilities {
+  .animate-color-change {
+    @apply hover:text-green-500;
+    animation: color-change 1s infinite;
+  }
+}
+
+@keyframes color-change {
+  0% { color: #fff; }
+  25% { color: #ff6347; } 
+  50% { color: #1e90ff; } 
+  75% { color: #32cd32; } 
+  100% { color: #ff69b4; } 
+}
 .nav-link {
-  @apply text-white text-lg relative;
+  @apply text-white relative;
 }
 
 .nav-link::after {
