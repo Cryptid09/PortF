@@ -2,8 +2,8 @@ const Skills = () => {
   return (
     <section id="skills" className="py-12 ">
       <div className="container mx-auto">
-        <h2 className="text-xl font-mono  mb-8">Skills </h2>
-        <div className="grid gap-7 text-black text-6xl">
+        <h2 className="text-xl font-mono gap-3  flex mb-8">Skills <hr className="w-14 mt-3"/></h2>
+        <div className="grid gap-4 text-black text-6xl">
           
           <div className="p-5 bg-gray-100">
             <h3 className="text-2xl font-semibold mb-4 text-gray-900">Languages and Databases</h3>
@@ -27,8 +27,8 @@ const Skills = () => {
 
           <div className="p-5 bg-gray-100">
             <h3 className="text-2xl text-gray-900 font-semibold mb-4">Concepts</h3>
-            <div className="flex justify-center flex-wrap space-x-4 space-y-4">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bag-data-structure.png/1200px-Bag-data-structure.png" alt="Data Structures and Algorithms" className="h-22"/> Data-
+            <div className="grid justify-center flex-wrap space-x-4 space-y-4 text-xs text-bold">
+              <img src="/src/assets/DSA.png" alt="Data Structures and Algorithms" width={100} /> <span className="text-xl font-bold">DSA</span>
             </div>
           </div>
 
