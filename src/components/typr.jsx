@@ -5,8 +5,9 @@ function Typewriter({
   text,
   typingSpeed = 100,
   deletingSpeed = 50,
-  duration = 1000
-}) {
+  duration = 1000 
+}) 
+{
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(0);
