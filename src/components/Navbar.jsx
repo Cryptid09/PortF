@@ -14,7 +14,6 @@ import { useState } from 'react';
         <ul className={`grid md:flex ${home?'' : 'justify-center'} space-x-10 ${vsb ? 'hidden' : 'block '}`}>
         
           <li><NavLink exact to="/" className="nav-link hover:text-green-500 ">Home</NavLink></li>
-          <li><NavLink to="/about" className="nav-link hover:text-green-500">About</NavLink></li>
           <li><NavLink to="/education" className="nav-link hover:text-green-500">Education</NavLink></li>
           <li><NavLink to="/Lawsuits" className="nav-link hover:text-green-500">Lawsuits</NavLink></li>
           <li><NavLink to="/skills" className="nav-link hover:text-green-500">Skills</NavLink></li>
