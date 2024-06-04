@@ -13,20 +13,25 @@ const About = () => {
       <div className="flex flex-col md:flex-row items-center md:items-start">
         <div className="mb-6 md:mb-0 md:mr-6">
           <img
-            src='/src/assets/img.jpeg'
+            src='/src/assets/Img2.jpeg'
             alt="Your Name"
             className="rounded-full w-48 h-48 object-cover"
           />
         </div>
         <div className="max-w-xl">
           <p className="text-lg mb-4">
-            Focused and enthusiastic developer with a keen interest in software development and artificial intelligence. By comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love for these domains came into being. I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.
+          A dedicated advocate committed to fostering positive change.
+          With a steadfast focus on justice and equality, I try to bring
+          a pragmatic approach to addressing societal issues. Through my 
+          expertise, empathy, and tireless efforts, I work to dismantle
+          barriers and empower individuals.
+           
           </p>
           <div className="text-sm">
-            <p><span className="font-bold">Birthday:</span> 16 jan 2005</p>
             <p><span className="font-bold">City:</span> Indore</p>
-            <p><span className="font-bold">Phone:</span> +91 7898488563</p>
-            <p><span className="font-bold">Email:</span> OMmishra162005@gmail.com</p>
+            <p><span className="font-bold">Phone:</span> +91 34221231239</p>
+            <p><span className="font-bold">Email:</span>  VipinParmar279@gmail.com</p>
+            
           </div>
         </div>
       </div>

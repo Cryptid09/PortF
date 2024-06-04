@@ -11,7 +11,7 @@ function Home() {
       <div className='md:hidden place-self-center'><Navbar /></div>
       <div className="grid  h-full ">
         <div>
-        <h1 className="text-5xl font-sans font-bold  mb-4">Om Mishra</h1><span className="text-xl font-bold text-green-500"><Typewriter text={["I am an AI Enthusiast!" , "Me to papa hu "]} typingSpeed={150} />
+        <h1 className="text-5xl font-sans font-bold  mb-4">Vipin parmar</h1><span className="text-xl font-bold text-green-500"><Typewriter text={["Me to raja hu!" , "Me to papa hu "]} typingSpeed={150} />
           </span>
         </div>
         <div className='hidden md:block ' >

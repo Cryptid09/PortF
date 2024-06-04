@@ -16,9 +16,8 @@ import { useState } from 'react';
           <li><NavLink exact to="/" className="nav-link hover:text-green-500 ">Home</NavLink></li>
           <li><NavLink to="/about" className="nav-link hover:text-green-500">About</NavLink></li>
           <li><NavLink to="/education" className="nav-link hover:text-green-500">Education</NavLink></li>
-          <li><NavLink to="/projects" className="nav-link hover:text-green-500">Projects</NavLink></li>
+          <li><NavLink to="/Lawsuits" className="nav-link hover:text-green-500">Lawsuits</NavLink></li>
           <li><NavLink to="/skills" className="nav-link hover:text-green-500">Skills</NavLink></li>
-          <li><NavLink to="/resume" className="nav-link hover:text-green-500">Resume</NavLink></li>
           <li><NavLink to="/contact" className="nav-link hover:text-green-500">Contact</NavLink></li>
         </ul>
       </nav>
