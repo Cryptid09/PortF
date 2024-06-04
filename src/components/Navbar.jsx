@@ -8,7 +8,7 @@ import { useState } from 'react';
     const appear = () => {setvsb(!vsb); };
     const home = location.pathname ==='/';
     return (
-      <nav className="text-xl absolute md:relative pt-4 pb-4 ">
+      <nav className="text-xl absolute z-20 md:relative pt-4 pb-4 ">
         <div className='md:hidden block'><MenuIcon className={`${vsb ? 'block' : 'invisible'}`} onClick={appear} />
         <CloseIcon className={`${vsb ? 'invisible' : 'block'}`} onClick={appear} /></div>
         <ul className={`grid md:flex ${home?'' : 'justify-center'} space-x-10 ${vsb ? 'hidden' : 'block '}`}>
