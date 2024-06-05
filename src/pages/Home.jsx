@@ -52,7 +52,7 @@ function Home() {
       <div className="flex flex-col md:flex-row items-center md:items-start">
         <div className="mb-6 md:mb-0 md:mr-6">
           <img
-            src='/public/Img1.jpeg'
+            src='/Img1.jpeg'
             alt="Your Name"
             className="rounded-full w-48 h-48 object-cover"
             />

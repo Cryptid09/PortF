@@ -3,7 +3,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import { X } from '@mui/icons-material';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 const ContactPage = () => {
@@ -38,10 +38,10 @@ const ContactPage = () => {
               <LinkedInIcon style={{ fontSize: 30 }} className='hover:text-blue-900'/>
             </a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <GitHubIcon style={{ fontSize: 30 }} className='hover:text-purple-800' />
+              <X style={{ fontSize: 30 }} className='hover:text-purple-800' />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <InstagramIcon style={{ fontSize: 30 }} />
+              <InstagramIcon className='hover:animate-instagram' style={{ fontSize: 30 }} />
             </a>
           </div>
         </div>
