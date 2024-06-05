@@ -1,28 +1,21 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
-  .hover\:animate-color-change:hover {
-    animation: color-change-hover 12s infinite;
-  }
-}
-@layer utilities {
-  .animate-color-change {
-    @apply hover:text-green-500;
-    animation: color-change 1s infinite;
+  .hover\\:color-change-hover {
+    @apply hover:animate-color-change-hover;
   }
 }
 
-@keyframes color-change {
-  0% { color: #fff; }
-  25% { color: #ff6347; } 
-  50% { color: #1e90ff; } 
-  75% { color: #32cd32; } 
-  100% { color: #ff69b4; } 
+@layer utilities {
+
+  .hover\\:instagram {
+    @apply hover:animate-instagram;
+  }
 }
+
+
 .nav-link {
   @apply text-white relative;
 }
@@ -34,7 +27,7 @@
   bottom: -2px;
   width: 0;
   height: 2px;
-  background: #daa107; 
+  background: #daa107;
   transition: width 0.3s ease-in-out;
 }
 

@@ -1,6 +1,5 @@
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import GoogleIcon from '@mui/icons-material/Google';
+import LinkedIn from '@mui/icons-material/LinkedIn';
+import { X, Instagram } from '@mui/icons-material';
 import Navbar from '../components/Navbar';
 import Typewriter from '../components/typr';
 import PreviewIcon from '@mui/icons-material/Preview';
@@ -18,36 +17,36 @@ function Home() {
       behavior: 'smooth',
     });
   };
-  return (<>
-    <div className="w-screen min-h-screen grid bg-gray-900 text-white pt-52 pl-32 ">
-      <div className='md:hidden place-self-end relative'><Navbar /></div>
-      <div className="grid ">
-        <div>
-        <h1 className="text-5xl font-sans font-bold  mb-4">Vipin parmar</h1><span className="text-xl font-bold text-green-500"><Typewriter text={["Me to raja hu!" , "Me to papa hu "]} typingSpeed={150} />
+  return (
+    <div className="bg-gray-900 w-min md:w-screen text-white pt-40 pl-20 md:pt-52 md:pl-32">
+      <div className=' grid  md:h-screen content-start gap-12  '>
+      <div className='md:hidden  place-self-start  relative'><Navbar /></div>
+     
+        <div className='h-max'>
+        <h1 className="text-5xl font-sans font-bold ">Vipin parmar</h1><span className="text-xl font-bold text-green-500"><Typewriter text={["Me to raja hu!" , "Me to papa hu "]} typingSpeed={150} />
           </span>
         </div>
-        <div className='hidden md:block ' >
+        <div className='hidden md:block  h-max' >
         <Navbar/>
         </div>
       
         <div className="flex space-x-4 mb-6">
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 ">
-            <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><LinkedInIcon /></div>
+            <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><LinkedIn className='hover:text-[#16167c]'/></div>
           </a>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2">
-          <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><GitHubIcon  /></div>
+          <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><X/></div>
           </a>
           <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="p-2 ">
-          <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><GoogleIcon  /></div>
+          <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><Instagram className='hover:animate-instagram' /></div>
           </a>
-        </div>
-       
       </div>
-      <div className='relative place-self-center'>
+     
+      <div className='pb-20 md:pb-0 relative place-self-center pt-5'>
         <div onClick={scrollToBottom} className='rounded-full border w-8 h-9 justify-center pt-2 flex'>
       <KeyboardDoubleArrowDownIcon className='animate-bounce'/></div>
       </div>
-    </div>
+      </div>
   {/* About */}
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
     
@@ -58,7 +57,7 @@ function Home() {
             src='/src/assets/Img1.jpeg'
             alt="Your Name"
             className="rounded-full w-48 h-48 object-cover"
-          />
+            />
         </div>
         <div className="max-w-xl">
           <p className="text-lg mb-4">
@@ -90,7 +89,8 @@ function Home() {
         </div>
       </div>
     </div>
-    </>
+   </div>
+
   );
 }
 
