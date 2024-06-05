@@ -21,7 +21,7 @@ function Home() {
       <div className='md:hidden  place-self-start  relative'><Navbar /></div>
      
         <div className='h-max'>
-        <h1 className="text-5xl font-sans font-bold ">Vipin parmar</h1><span className="text-xl font-bold text-green-500"><Typewriter text={["Me to raja hu!" , "Me to papa hu "]} typingSpeed={150} />
+        <h1 className="text-5xl font-sans font-bold ">Vipin parmar</h1><span className="text-xl font-bold text-green-500"><Typewriter text={["I'am an Advocate" , "Dedicated to Upholding justice and protecting your rights "]} typingSpeed={150} />
           </span>
         </div>
         <div className='hidden md:block  h-max' >
