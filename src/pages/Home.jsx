@@ -1,14 +1,12 @@
 import LinkedIn from '@mui/icons-material/LinkedIn';
-import { X, Instagram } from '@mui/icons-material';
+import { X, Instagram, Plagiarism } from '@mui/icons-material';
 import Navbar from '../components/Navbar';
 import Typewriter from '../components/typr';
 import PreviewIcon from '@mui/icons-material/Preview';
-import CodeIcon from '@mui/icons-material/Code';
 import SchoolIcon from '@mui/icons-material/School';
-import AppSettingsAltIcon from '@mui/icons-material/AppSettingsAlt';
+import Diversity3Icon from '@mui/icons-material/Diversity3';
 import InterpreterModeIcon from '@mui/icons-material/InterpreterMode';
-import AccountTreeIcon from '@mui/icons-material/AccountTree';
-import CompareIcon from '@mui/icons-material/Compare';
+import HandshakeIcon from '@mui/icons-material/Handshake';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 function Home() {
   const scrollToBottom = () => {
@@ -32,7 +30,7 @@ function Home() {
       
         <div className="flex space-x-4 mb-6">
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 ">
-            <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><LinkedIn className='hover:text-[#16167c]'/></div>
+            <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><LinkedIn className='hover:text-[#202557]'/></div>
           </a>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2">
           <div className="rounded-full bg-gray-800 hover:bg-gray-700 w-9 h-9 grid place-items-center"><X/></div>
@@ -50,11 +48,11 @@ function Home() {
   {/* About */}
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
     
-      <h1 className="text-5xl font-bold mb-8">About Me</h1>
+      <h1 className="text-5xl font-bold mb-8 ">About Me</h1>
       <div className="flex flex-col md:flex-row items-center md:items-start">
         <div className="mb-6 md:mb-0 md:mr-6">
           <img
-            src='/src/assets/Img1.jpeg'
+            src='/public/Img1.jpeg'
             alt="Your Name"
             className="rounded-full w-48 h-48 object-cover"
             />
@@ -77,15 +75,14 @@ function Home() {
         </div>
       </div>
       <div className="mt-8">
-        <h2 className="text-3xl font-bold mb-4">Interests</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div className="p-4 bg-gray-800 rounded-md text-center"><CodeIcon className='text-orange-500'/>  Software Development</div>
-          <div className="p-4 bg-gray-800 rounded-md text-center"><SchoolIcon className='text-green-500'/>  Machine Learning</div>
-          <div className="p-4 bg-gray-800 rounded-md text-center"><PreviewIcon className='text-red-500'/>  Computer Vision</div>
-          <div className="p-4 bg-gray-800 rounded-md text-center"><InterpreterModeIcon className='text-blue-400'/>  Natural Language Processing</div>
-          <div className="p-4 bg-gray-800 rounded-md text-center"><AppSettingsAltIcon className='text-yellow-500'/>  Software Engineering</div>
-          <div className="p-4 bg-gray-800 rounded-md text-center"><AccountTreeIcon />  Algorithms</div>
-          <div className="p-4 bg-gray-800 rounded-md text-center"><CompareIcon className='text-gray-500'/>  Image Processing</div>
+        <h2 className="text-3xl font-bold mb-4">Services</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
+          <div className="overflow-auto grid justify-items-center text-center place-content-center p-4 bg-gray-800 rounded-md "><HandshakeIcon className='text-orange-500'/> Client-Consultations</div>
+          <div className="overflow-auto grid justify-items-center text-center place-content-center p-4 bg-gray-800 rounded-md "><SchoolIcon className='text-green-500'/> Case Strategy</div>
+          <div className="overflow-auto grid justify-items-center text-center place-content-center p-4 bg-gray-800 rounded-md "><PreviewIcon className='text-red-500'/>   Case Analysis</div>
+          <div className="overflow-auto grid justify-items-center text-center place-content-center p-4 bg-gray-800 rounded-md "><InterpreterModeIcon className='text-blue-400'/> Courtroom Advocacy</div>
+          <div className="overflow-auto grid justify-items-center text-center place-content-center p-4 bg-gray-800 rounded-md "> <Diversity3Icon className='text-yellow-500'/>   Negotiations </div>
+          <div className="overflow-auto grid justify-items-center text-center place-content-center p-4 bg-gray-800 rounded-md "><Plagiarism className='text-gray-500'/> Legal Research and Preparation</div>
         </div>
       </div>
     </div>
